@@ -1,0 +1,6 @@
+{
+
+    "dart.vmRunAdditionalArgs": [
+        "--no-sound-null-saftey"
+    ]
+}
