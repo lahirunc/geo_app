@@ -3,8 +3,8 @@
 <plist version="1.0">
 	<dict>
 		<!-- Map user permission -->
-		<key>NSLocationAlwaysUsageDescription</key>
-		<!-- <string>location</string> -->
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>App needs access to location and direction when open.</string>
 
 		<key>UIBackgroundModes</key>
 		<string>location</string>

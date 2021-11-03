@@ -1,6 +1,8 @@
 {
-
-    "dart.vmRunAdditionalArgs": [
-        "--no-sound-null-saftey"
+    "cSpell.words": [
+        "cupertino",
+        "geolocator",
+        "latlong",
+        "Schyler"
     ]
 }
