@@ -1,11 +1,12 @@
 # **Welcome to GeoApp**
-A simple geo tracking delivery app. This app would enable the user to get realtime updates on their delivery.
+A simple geo tracking delivery app. This app would enable the user to get realtime updates on their delivery. 
 
 ## Features
  - Realtime tracking
  - Distance
  - Estimated time of arrival
  - Search function 
+ - Web enabled
 
 ## Running the app
 1. Open a terminal.
