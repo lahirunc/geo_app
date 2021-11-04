@@ -184,6 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // to track the location. If not request permission to enable. Then if enabled
   // it will read the current location else return.
   locationServicePermission() async {
+    try{
     _serviceEnabled = await location.serviceEnabled();
     if (!_serviceEnabled!) {
       _serviceEnabled = await location.requestService();
@@ -205,5 +206,8 @@ class _HomeScreenState extends State<HomeScreen> {
     longitude = _locationData!.longitude;
 
     setState(() {});
+    } on Exception catch (e) {
+      print(e);
+    }
   }
 }
